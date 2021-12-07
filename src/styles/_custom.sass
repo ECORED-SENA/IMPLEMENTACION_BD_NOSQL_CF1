@@ -1,0 +1,79 @@
+// Titulos ------------------------------- 
+
+.titulo-principal__numero
+  background-color: #FECA2E
+.titulo-principal__numero span
+  color: $color-sistema-texto
+.titulo-segundo:after
+  border-left-color: #FECA2E
+
+// Cajon Texto -------------------------------
+
+.bloque-texto-a.color-acento-botones:before
+  background-color: #E8E8E8
+
+// Listas -------------------------------
+
+.fa-database:before
+  background-image: url(/components/database.svg)
+.lista-ul--color li>i:first-of-type
+  color: $color-primario
+
+// Bordes --------------------------------
+
+.rounded-10
+  border-radius: 10px
+.rounded-25
+  border-radius: 25px
+.borde-gris
+  border: solid 4px #F6F6F6
+.borde-azul
+  border: solid 2px #70D2DF
+  border-bottom: none 
+.borde-azul > .row
+  border-bottom: solid 2px #70D2DF
+
+// Background Colors ------------------------------
+
+.bg-amarillo
+  background-color: #F4CD58
+.bg-amarillo-claro
+  background-color: #F4CD5833 !important
+.bg-gris
+  background-color: #f6f6f6
+.bg-gris-oscuro
+  background-color: #e8e8e8
+.bg-azul
+  background-color: #70D2DF
+.bg-azul-claro
+  background-color: #70D2DF40 !important
+.bg-azul-gradient
+  background-color: linear-gradient(#4DD0E1, #0050A0)
+.tarjeta.color-primario
+  background-image: linear-gradient(180deg, rgba(77,208,225,1) 10%, rgba(0,80,160,1) 100%)
+
+// Tablas --------------------------------
+
+.tabla-a
+  overflow: hidden
+table tr td 
+  vertical-align: baseline
+
+// Estilos de Texto
+
+.font-console p
+  font-family: monospace
+
+// Tarjetas
+
+.tarjeta-avatar-b > img
+  min-width: 0
+  width: 17%
+  
+@media only screen and (max-width: 600px) 
+  .scroll-x-tabla
+    overflow-x: auto !important;
+  .scroll-x-tabla::-webkit-scrollbar
+    height: 5px;  
+  .scroll-x-tabla::-webkit-scrollbar-thumb 
+    background: #FFD947;
