@@ -133,36 +133,36 @@
                 ul.lista-ul--color
                   li 
                     i.fas.fa-database
-                    | #[strong Cédula:] 1029283762
+                    p.mb-0 #[strong Cédula:] 1029283762
                   li
                     i.fas.fa-database
-                    | #[strong Nombre:] JUAN CARLOS
+                    p.mb-0 #[strong Nombre:] JUAN CARLOS
                   li  
                     i.fas.fa-database
-                    | #[strong Apellidos:] MARTINEZ
+                    p.mb-0 #[strong Apellidos:] MARTINEZ
                   li  
                     i.fas.fa-database
-                    | #[strong Correo:] juancho@nerss.et
+                    p.mb-0 #[strong Correo:] juancho@nerss.et
                   li  
                     i.fas.fa-database
-                    | #[strong Teléfono:] 3150817273
+                    p.mb-0 #[strong Teléfono:] 3150817273
                   li  
                     i.fas.fa-database
-                    | #[strong Teléfono:] 3168272372
+                    p.mb-0 #[strong Teléfono:] 3168272372
               .col-auto
                 ul.lista-ul--color
                   li 
                     i.fas.fa-database
-                    | #[strong Cédula:] 98765322
+                    p.mb-0 #[strong Cédula:] 98765322
                   li
                     i.fas.fa-database
-                    | #[strong Nombre:] DANIELA
+                    p.mb-0 #[strong Nombre:] DANIELA
                   li  
                     i.fas.fa-database
-                    | #[strong Apellidos:] VELEZ LEMOS
+                    p.mb-0 #[strong Apellidos:] VELEZ LEMOS
                   li  
                     i.fas.fa-database
-                    | #[strong Correo:] dnala@nerss.et             
+                    p.mb-0 #[strong Correo:] dnala@nerss.et             
           .col-4
             figure
               img(src="@/assets/template/tema1-9.svg", alt="Texto que describa la imagen")
@@ -239,7 +239,7 @@
     .row.mt-5
       .col-10.offset-1
         .tarjeta-avatar-b.mb-5
-          img(src='@/assets/template/tema1-11.svg' alt='AvatarTop').w-15
+          img(src='@/assets/template/tema1-11.svg' alt='AvatarTop' style="position:relative").w-15
           .tarjeta.borde-gris
             .p-4
               h2 Formato XML
@@ -297,7 +297,7 @@
     .row.mt-5
       .col-10.offset-1
         .tarjeta-avatar-b.mb-5
-          img(src='@/assets/template/tema1-12.svg' alt='AvatarTop')
+          img(src='@/assets/template/tema1-12.svg' alt='AvatarTop' style="position:relative")
           .tarjeta.borde-gris
             .p-4
               h2 Formato JSON
@@ -359,7 +359,7 @@
     .row.mt-5
       .col-10.offset-1
         .tarjeta-avatar-b.mb-5
-          img(src='@/assets/template/tema1-14.svg' alt='AvatarTop')
+          img(src='@/assets/template/tema1-14.svg' alt='AvatarTop' style="position:relative")
           .tarjeta.borde-gris
             .p-4
               h2 Representación en formato BSON
