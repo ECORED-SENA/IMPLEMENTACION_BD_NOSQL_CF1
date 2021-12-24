@@ -50,7 +50,7 @@
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p #[strong Enlace web.] https://www.mongodb.com/
-    p.mt-4 Estando allí, haga clic en Software y Community Server para aplicar los pasos:
+    p.mt-4 estando allí, haga clic en Products y Community Server para aplicar los pasos:
     .row.mt-5
       .col-10.offset-1
         .tarjeta.color-primario.p-3.mb-5
